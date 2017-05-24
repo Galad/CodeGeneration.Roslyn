@@ -1,6 +1,6 @@
 version: '{build}'
 skip_tags: true
-image: Visual Studio 2017
+image: Previous Visual Studio 2017
 configuration: Release
 before_build:
 - |- # Restore TWICE. See https://github.com/AArnott/Nerdbank.GitVersioning/issues/113#issuecomment-285903085
