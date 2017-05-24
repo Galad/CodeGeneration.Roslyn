@@ -6,6 +6,7 @@
     <AssemblyOriginatorKeyFile>..\opensource.snk</AssemblyOriginatorKeyFile>
     <PackageTargetFallback>$(PackageTargetFallback);portable-net45+win8+wp8+wpa81;</PackageTargetFallback>
     <Description>A package that offers libraries for creating a code generation attribute and the associated generator.</Description>
+    <PackageId>CodeGeneration.Roslyn.VisualStudio2017</PackageId>
   </PropertyGroup>
 
   <ItemGroup>

@@ -6,6 +6,7 @@
     <SignAssembly>true</SignAssembly>
     <PackageTargetFallback>$(PackageTargetFallback);portable-net45+win8+wp8+wpa81;</PackageTargetFallback>
     <IsPackable>false</IsPackable>
+    <PackageId>CodeGeneration.Roslyn.Tasks.Helper.VisualStudio2017</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
