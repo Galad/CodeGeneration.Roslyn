@@ -7,7 +7,7 @@ before_build:
   msbuild src\CodeGeneration.Roslyn.sln /nologo /m /v:quiet /t:restore > nul
   msbuild src\CodeGeneration.Roslyn.sln /nologo /m /v:quiet /t:restore
 build_script:
-- msbuild src\CodeGeneration.Roslyn.sln /nologo /m /v:minimal /t:build,pack
+- msbuild src\CodeGeneration.Roslyn.sln /nologo /m /v:detailed /t:build,pack
 artifacts:
 - path: bin\**\*.nupkg
   name: NuGet Package
