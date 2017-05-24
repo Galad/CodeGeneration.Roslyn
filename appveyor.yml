@@ -10,4 +10,5 @@ build_script:
 - msbuild src\CodeGeneration.Roslyn.sln /nologo /m /v:detailed /t:build,pack
 artifacts:
 - path: bin\**\*.nupkg
+- path: MSBuild_*.failure.txt
   name: NuGet Package
